@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Other\\SoftUni\\SoftUni\\Adapter.csproj",
+      "projectUniqueName": "C:\\Projects\\Other\\SoftUni\\Adapter\\Adapter.csproj",
       "projectName": "Adapter",
-      "projectPath": "C:\\Projects\\Other\\SoftUni\\SoftUni\\Adapter.csproj",
+      "projectPath": "C:\\Projects\\Other\\SoftUni\\Adapter\\Adapter.csproj",
       "packagesPath": "C:\\Users\\o55048\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Other\\SoftUni\\SoftUni\\obj\\",
+      "outputPath": "C:\\Projects\\Other\\SoftUni\\Adapter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PkyxTz7NF9z96odOjPH67b67gIKCgImh/v0fPE/AdbFh7OAK9O5Sc0hQYfIk7imFn4nXI3AQPFzdE0bhKoIuig==",
+  "dgSpecHash": "EwwooQctAAGk5FVzU30lww22a8hD2NlU3mD1Z0r04EAx3k2SmqBXOqUYcNVqnSuHp+rDbCp1NwjfitiVwGzd8g==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Other\\SoftUni\\SoftUni\\Adapter.csproj",
+  "projectFilePath": "C:\\Projects\\Other\\SoftUni\\Adapter\\Adapter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
