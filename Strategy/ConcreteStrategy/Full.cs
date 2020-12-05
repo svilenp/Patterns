@@ -9,7 +9,7 @@ namespace Strategy.ConcreteStrategy
         {
             AddOrders();
             AddClientInfo();
-            AddRedHeaders();
+            AddHeaders();
             AddTotals();
         }
 
@@ -23,12 +23,12 @@ namespace Strategy.ConcreteStrategy
 
         private void AddClientInfo()
         {
-            Console.WriteLine("Clinet ingfo.");
+            Console.WriteLine("Clinet info.");
         }
 
-        private void AddRedHeaders()
+        private void AddHeaders()
         {
-            Console.WriteLine("Red Headers applied");
+            Console.WriteLine("Headers applied");
         }
 
         private void AddTotals()
