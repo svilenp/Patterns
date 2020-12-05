@@ -11,7 +11,7 @@ namespace Strategy.ConcreteStrategy
 
         private void AddOrders()
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Order {i}.");
             }
