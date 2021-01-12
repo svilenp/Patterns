@@ -3,7 +3,7 @@ using FactoryMethod.Creator;
 
 namespace FactoryMethod.ConcreteCreator
 {
-    public class LimitedFactory : OrderType
+    public class LimitedFactory : ExportType
     {
         public override void CreateExportDocument()
         {

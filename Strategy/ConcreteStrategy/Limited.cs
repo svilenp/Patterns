@@ -2,7 +2,7 @@
 
 namespace Strategy.ConcreteStrategy
 {
-    public class Limited : IOrderType
+    public class Limited : IExportType
     {
         public void Export()
         {

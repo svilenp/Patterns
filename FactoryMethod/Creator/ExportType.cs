@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace FactoryMethod.Creator
 {
-    public abstract class OrderType
+    public abstract class ExportType
     {
         public List<ISection> Sections { get; set; }
 
-        public OrderType()
+        public ExportType()
         {
             Sections = new List<ISection>();
 

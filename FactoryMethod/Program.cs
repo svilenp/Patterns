@@ -9,17 +9,17 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            List<OrderType> orders = new List<OrderType>
+            List<ExportType> exporters = new List<ExportType>
             {
                 new FullFactory(),
                 new LimitedFactory(),
                 new SummaryFactory()
             };
 
-            foreach (var order in orders)
+            foreach (var exporter in exporters)
             {
-                Console.WriteLine($"{order.GetType().Name} :");
-                foreach (var section in order.Sections)
+                Console.WriteLine($"{exporter.GetType().Name} :");
+                foreach (var section in exporter.Sections)
                 {
                     section.Include();
                 }

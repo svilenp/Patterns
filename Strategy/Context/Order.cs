@@ -2,16 +2,16 @@
 {
     public class Order
     {
-        private readonly IOrderType _orderType;
+        private readonly IExportType _exportType;
 
-        public Order(IOrderType orderType)
+        public Order(IExportType exportType)
         {
-            _orderType = orderType;
+            _exportType = exportType;
         }
 
         public void Export()
         {
-            _orderType.Export();
+            _exportType.Export();
         }
     }
 }

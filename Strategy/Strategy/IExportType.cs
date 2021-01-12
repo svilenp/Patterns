@@ -1,6 +1,6 @@
 ﻿namespace Strategy
 {
-    public interface IOrderType
+    public interface IExportType
     {
         void Export();
     }

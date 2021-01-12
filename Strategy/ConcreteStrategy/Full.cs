@@ -3,7 +3,7 @@ using System;
 
 namespace Strategy.ConcreteStrategy
 {
-    public class Full : IOrderType
+    public class Full : IExportType
     {
         public void Export()
         {
