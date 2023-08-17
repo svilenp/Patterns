@@ -1,13 +1,13 @@
 ﻿using FactoryMethod.Product;
-using System;
+using System; 
 
 namespace FactoryMethod.ConcreteProduct
 {
-    public class TotalsSection : ISection
+    public class SnackSection : ISection
     {
         public void Include()
         {
-            Console.WriteLine("Total: ###");
+            Console.WriteLine("Here is some snack.");
         }
     }
 }

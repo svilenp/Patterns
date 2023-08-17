@@ -3,11 +3,11 @@ using FactoryMethod.Creator;
 
 namespace FactoryMethod.ConcreteCreator
 {
-    public class LimitedFactory : ExportType
+    public class StandardFactory : ShelfType
     {
-        public override void CreateExportDocument()
+        public override void Create()
         {
-            Sections.Add(new OrdersSection());
+            Sections.Add(new AlcoholSection());
         }
     }
 }

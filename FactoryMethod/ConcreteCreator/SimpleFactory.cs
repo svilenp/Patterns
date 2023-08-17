@@ -3,11 +3,11 @@ using FactoryMethod.Creator;
 
 namespace FactoryMethod.ConcreteCreator
 {
-    public class SummaryFactory : ExportType
+    public class SimpleFactory : ShelfType
     {
-        public override void CreateExportDocument()
+        public override void Create()
         {
-            Sections.Add(new SummarySection());
+            Sections.Add(new UselessSection());
         }
     }
 }

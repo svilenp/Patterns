@@ -8,9 +8,13 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            var fullOrder = new Order(new Full());
-            var limitedOrder = new Order(new Limited());
-            var orderSummary = new Order(new Summary());
+            IExportType fullStrategy = new Full();
+            IExportType limitedStrategy = new Limited();
+            IExportType summaryStrategy = new Summary();
+
+            var fullOrder = new Order(fullStrategy);
+            var limitedOrder = new Order(limitedStrategy);
+            var orderSummary = new Order(summaryStrategy);
 
             DoTheExport(fullOrder, "Full Order Export");
             DoTheExport(limitedOrder, "Limited Order Export");

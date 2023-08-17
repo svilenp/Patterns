@@ -3,18 +3,18 @@ using System.Collections.Generic;
 
 namespace FactoryMethod.Creator
 {
-    public abstract class ExportType
+    public abstract class ShelfType
     {
         public List<ISection> Sections { get; set; }
 
-        public ExportType()
+        public ShelfType()
         {
             Sections = new List<ISection>();
 
-            CreateExportDocument();
+            Create();
         }
 
         // The Factory Method
-        public abstract void CreateExportDocument();
+        public abstract void Create();
     }
 }

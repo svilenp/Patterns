@@ -1,13 +1,13 @@
 ﻿using FactoryMethod.Product;
-using System; 
+using System;
 
 namespace FactoryMethod.ConcreteProduct
 {
-    public class HeaderSection : ISection
+    public class WaterSection : ISection
     {
         public void Include()
         {
-            Console.WriteLine("Headers applied");
+            Console.WriteLine("Mineral Water");
         }
     }
 }

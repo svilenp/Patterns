@@ -9,17 +9,17 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            List<ExportType> exporters = new List<ExportType>
+            List<ShelfType> shelves = new List<ShelfType>
             {
-                new FullFactory(),
-                new LimitedFactory(),
-                new SummaryFactory()
+                new SpecialFactory(),
+                new StandardFactory(),
+                new SimpleFactory()
             };
 
-            foreach (var exporter in exporters)
+            foreach (var shelf in shelves)
             {
-                Console.WriteLine($"{exporter.GetType().Name} :");
-                foreach (var section in exporter.Sections)
+                Console.WriteLine($"{shelf.GetType().Name} :");
+                foreach (var section in shelf.Sections)
                 {
                     section.Include();
                 }

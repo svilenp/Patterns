@@ -3,11 +3,11 @@ using System;
 
 namespace FactoryMethod.ConcreteProduct
 {
-    public class ClientInfoSection : ISection
+    public class UselessSection : ISection
     {
         public void Include()
         {
-            Console.WriteLine("Clinet info.");
+            Console.WriteLine("Something useless here!");
         }
     }
 }

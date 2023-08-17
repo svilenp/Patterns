@@ -19,18 +19,18 @@ namespace Adapter
             DevelopersGroup(developersCollection);
 
             #region Add a person - Stavri
-            //IPerson stavri = new Stavri();
+            IPerson stavri = new Stavri();
             //stavri.Work();
 
             //developersCollection.Add(stavri);
             #endregion
 
             #region Adapt Stavri as developer
-            //IDeveloper stavriAsDeveloper = new PersonAdapter(stavri);
-            //developersCollection.Add(stavriAsDeveloper);
+            IDeveloper stavriAsDeveloper = new PersonAdapter(stavri);
+            developersCollection.Add(stavriAsDeveloper);
 
-            //Console.WriteLine("Second attempt:");
-            //DevelopersGroup(developersCollection);
+            Console.WriteLine("Second attempt:");
+            DevelopersGroup(developersCollection);
             #endregion
         }
 
